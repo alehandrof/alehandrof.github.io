@@ -674,58 +674,18 @@ b {
 
 /* Print visibility */
 
-/* Basscss Utility White Space */
-
-.mb2 {
-  margin-bottom: 1rem;
-}
-
-.mt3 {
-  margin-top: 2rem;
-}
-
-.py3 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.masthead h1,
-.masthead h2,
-.masthead p {
-  line-height: 0.8;
-}
-
-.border-up {
-  border-top: 0.5rem solid #263238;
-}
-
-b {
-  font-weight: normal;
-}
-
-.small-caps {
-  font-family: 'great-primer-small-caps', 'great-primer', serif, 'great-primer', serif;
-  text-transform: lowercase;
-}
-
-.amp {
-  font-family: 'great-primer', 'great-primer', serif, 'great-primer', serif;
-  font-style: italic;
-}
-
-.text-muted {
-  color: #607d8b;
-}
-
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
+/* FONT PATH
+ * -------------------------- */
+
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  src: url('//netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('//netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('//netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('//netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('//netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -739,9 +699,11 @@ b {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* makes the font 33% larger relative to the icon container */
+
 .fa-lg {
-  font-size: 1.33333333em;
-  line-height: .75em;
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
   vertical-align: -15%;
 }
 
@@ -798,6 +760,9 @@ b {
   color: #fff;
 }
 
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
 .fa-twitter:before {
   content: "\f099";
 }
@@ -808,4 +773,47 @@ b {
 
 .fa-circle:before {
   content: "\f111";
+}
+
+/* Basscss Utility White Space */
+
+.mb2 {
+  margin-bottom: 1rem;
+}
+
+.mt3 {
+  margin-top: 2rem;
+}
+
+.py3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.masthead h1,
+.masthead h2,
+.masthead p {
+  line-height: 0.8;
+}
+
+.border-up {
+  border-top: 0.5rem solid #263238;
+}
+
+b {
+  font-weight: normal;
+}
+
+.small-caps {
+  font-family: 'great-primer-small-caps', 'great-primer', serif, 'great-primer', serif;
+  text-transform: lowercase;
+}
+
+.amp {
+  font-family: 'great-primer', 'great-primer', serif, 'great-primer', serif;
+  font-style: italic;
+}
+
+.text-muted {
+  color: #607d8b;
 }

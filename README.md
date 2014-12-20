@@ -1,3 +1,5 @@
 # alehandrof.github.io
 
-My website on [alehandrof.com](alehandrof.com)
+My website on [alehandrof.com](http://alehandrof.com)
+
+&copy Alex Armstrong
