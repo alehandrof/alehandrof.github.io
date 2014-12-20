@@ -1,5 +1,5 @@
-# alehandrof.github.io
+# alehandrof.com
 
-My website on [alehandrof.com](http://alehandrof.com)
+This repo contains the files for my website on [alehandrof.com](http://alehandrof.com).
 
-&copy Alex Armstrong
+&copy; Alex Armstrong.
